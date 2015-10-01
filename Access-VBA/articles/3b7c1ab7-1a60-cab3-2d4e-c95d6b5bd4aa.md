@@ -28,6 +28,11 @@ The  **PrintOut** method carries out the PrintOut action in Visual Basic.
 
 You can use the PrintOut action to print the active object in the open database. You can print datasheets, reports, forms, data access pages, and modules.
 
+The PrintOut action prints directly to the default printer.  Use this command instead to use a printer dialog:
+
+```
+DoCmd.RunCommand acCmdPrint
+```
 
 ## Example
 
